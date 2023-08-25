@@ -1,0 +1,16 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="">
+<IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>MIIDMDCCAhigAwIBAgIQfrLg6xY9R+O9MpP1WyZs9DANBgkqhkiG9w0BAQsFADAyMRIwEAYDVQQDDAl0ZXN0dXNlcnMxHDAaBgNVBAMME1JhZGlhbnQgTG9naWMsIEluYy4wHhcNMjMwODE0MjAwMDUwWhcNMjgwODE1MjAwMDUwWjAyMRIwEAYDVQQDDAl0ZXN0dXNlcnMxHDAaBgNVBAMME1JhZGlhbnQgTG9naWMsIEluYy4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZnTaqQia9/tKzIW6dCs7l3mFF92aHlHD1EYfjBaP+u9Mtcn565DnHb6AC5D9sV+ZiERdXfazJsVhGWtGEMY8jf2AZ/bdhfzFNC77oPmTvNaEjb90D5bMW+kBNusupDTBLs16Qo8BSHlYVkW9Wu0itk1roJnGWiq/d6Zgfi9wMx7W/BaTiFzSPpAtXCXxhvkhz8FokneD47q/pASnJ37MtPw2ym7PYfmb/uFs7ym38MmAP0P9d8AkP+w80Vt0IM1TI2LB6+au+FcsOgwiwIXP8loUHS8ttltzr9W/Sf/WqDctH05PciLK80gxzssOELOG+NNdMqJ+Ig/PmOWJVKB1XAgMBAAGjQjBAMB0GA1UdDgQWBBTGztUOp3AGt/phlT5gvrr5XUAJ2DASBgNVHRMBAf8ECDAGAQH/AgEAMAsGA1UdDwQEAwIBhjANBgkqhkiG9w0BAQsFAAOCAQEAkWWZgmsKhy5xRvqS6jzpEXMOja/TUPPD5IzVkhTOuNKLGJgLf9wPtbCEEvjQkxJQB6+l+M5JdTLgyEK0BcPZInD6m31vg7jhiLqZCn44PW6K5gkmDRVe2st4eezLJPI/9pe9WKvSkg1v4rHsiwsYYaz7HNfHFjZEmjpUmdGsyyh/IRyUf/25GHMcsq8NRrsmVxMhqz8mUCrwcEpqeZkYTUtUbVwTMzVNICp2tBpCALz8uopRRIdwZWrXi5W7BDrrJ+SVzdnw0+IgS36YkChj3Kr7HuslWGn3Diw6uxPuK4idQfDMX2zBumBpYJCOhQQPHLdl3BKwuocDhc5F3pIrOg==</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</KeyDescriptor>
+<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cfs001.dudleycadet.us/cfs/Saml2/testusers/665e7fe2-23f4-48d5-b8fd-a3f9b1bacd8f"/>
+<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cfs001.dudleycadet.us/cfs/Saml2/testusers/665e7fe2-23f4-48d5-b8fd-a3f9b1bacd8f"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cfs001.dudleycadet.us/cfs/Saml2/testusers/665e7fe2-23f4-48d5-b8fd-a3f9b1bacd8f"/>
+<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cfs001.dudleycadet.us/cfs/Saml2/testusers/665e7fe2-23f4-48d5-b8fd-a3f9b1bacd8f"/>
+</IDPSSODescriptor>
+</EntityDescriptor>

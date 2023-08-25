@@ -1,0 +1,4 @@
+python3 -m http.server --cgi 5000
+
+export FLASK_APP=saml_cfstest.py
+flask run

@@ -1,0 +1,41 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="_1ca4705f-1a75-4f98-be68-e2abe7985931" entityID="https://cfs001.dudleycadet.us">
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_1ca4705f-1a75-4f98-be68-e2abe7985931">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>miUs3Kc73NenI7ypVnjY3IK6PrwcFUwMSwKWU51Cupc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>BaLbhndbw+eTTBmDeueFS2/ta5fh7K6WSizl+mGP7E1TGMDb4ZhlF1meMC92uoU2DHbRI3si+srBk+36Aqa8cqNlczLqU/2ra4/6XLoE58UWms2JopDbQgSti6onASQIebykEEkMjJeozKNkddTisJgOImp3O4uDMbZnFF1iIjMcJjbEHm1r+OIZIYvIxleITm8ppTVxAHss3WgkIdHoK0vf7O+PQ33qEs6rak1i5zMbYRwauHmxIN4a+CgSnKQ2wn08eMmeU0YgHFaYkPzsnPiLTp4FyG9TAhWqo/TqzODgKDZL1VPmsySOGoRCliPB7LiZunMzwICREbswcqNAIw==</ds:SignatureValue>
+<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<X509Data>
+<X509Certificate>MIIDMDCCAhigAwIBAgIQfrLg6xY9R+O9MpP1WyZs9DANBgkqhkiG9w0BAQsFADAyMRIwEAYDVQQDDAl0ZXN0dXNlcnMxHDAaBgNVBAMME1JhZGlhbnQgTG9naWMsIEluYy4wHhcNMjMwODE0MjAwMDUwWhcNMjgwODE1MjAwMDUwWjAyMRIwEAYDVQQDDAl0ZXN0dXNlcnMxHDAaBgNVBAMME1JhZGlhbnQgTG9naWMsIEluYy4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZnTaqQia9/tKzIW6dCs7l3mFF92aHlHD1EYfjBaP+u9Mtcn565DnHb6AC5D9sV+ZiERdXfazJsVhGWtGEMY8jf2AZ/bdhfzFNC77oPmTvNaEjb90D5bMW+kBNusupDTBLs16Qo8BSHlYVkW9Wu0itk1roJnGWiq/d6Zgfi9wMx7W/BaTiFzSPpAtXCXxhvkhz8FokneD47q/pASnJ37MtPw2ym7PYfmb/uFs7ym38MmAP0P9d8AkP+w80Vt0IM1TI2LB6+au+FcsOgwiwIXP8loUHS8ttltzr9W/Sf/WqDctH05PciLK80gxzssOELOG+NNdMqJ+Ig/PmOWJVKB1XAgMBAAGjQjBAMB0GA1UdDgQWBBTGztUOp3AGt/phlT5gvrr5XUAJ2DASBgNVHRMBAf8ECDAGAQH/AgEAMAsGA1UdDwQEAwIBhjANBgkqhkiG9w0BAQsFAAOCAQEAkWWZgmsKhy5xRvqS6jzpEXMOja/TUPPD5IzVkhTOuNKLGJgLf9wPtbCEEvjQkxJQB6+l+M5JdTLgyEK0BcPZInD6m31vg7jhiLqZCn44PW6K5gkmDRVe2st4eezLJPI/9pe9WKvSkg1v4rHsiwsYYaz7HNfHFjZEmjpUmdGsyyh/IRyUf/25GHMcsq8NRrsmVxMhqz8mUCrwcEpqeZkYTUtUbVwTMzVNICp2tBpCALz8uopRRIdwZWrXi5W7BDrrJ+SVzdnw0+IgS36YkChj3Kr7HuslWGn3Diw6uxPuK4idQfDMX2zBumBpYJCOhQQPHLdl3BKwuocDhc5F3pIrOg==</X509Certificate>
+</X509Data>
+</KeyInfo>
+</ds:Signature>
+<RoleDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fed="http://docs.oasis-open.org/wsfed/federation/200706" xsi:type="fed:SecurityTokenServiceType" protocolSupportEnumeration="http://docs.oasis-open.org/wsfed/federation/200706">
+<KeyDescriptor use="signing">
+<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<X509Data>
+<X509Certificate>MIIDMDCCAhigAwIBAgIQfrLg6xY9R+O9MpP1WyZs9DANBgkqhkiG9w0BAQsFADAyMRIwEAYDVQQDDAl0ZXN0dXNlcnMxHDAaBgNVBAMME1JhZGlhbnQgTG9naWMsIEluYy4wHhcNMjMwODE0MjAwMDUwWhcNMjgwODE1MjAwMDUwWjAyMRIwEAYDVQQDDAl0ZXN0dXNlcnMxHDAaBgNVBAMME1JhZGlhbnQgTG9naWMsIEluYy4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZnTaqQia9/tKzIW6dCs7l3mFF92aHlHD1EYfjBaP+u9Mtcn565DnHb6AC5D9sV+ZiERdXfazJsVhGWtGEMY8jf2AZ/bdhfzFNC77oPmTvNaEjb90D5bMW+kBNusupDTBLs16Qo8BSHlYVkW9Wu0itk1roJnGWiq/d6Zgfi9wMx7W/BaTiFzSPpAtXCXxhvkhz8FokneD47q/pASnJ37MtPw2ym7PYfmb/uFs7ym38MmAP0P9d8AkP+w80Vt0IM1TI2LB6+au+FcsOgwiwIXP8loUHS8ttltzr9W/Sf/WqDctH05PciLK80gxzssOELOG+NNdMqJ+Ig/PmOWJVKB1XAgMBAAGjQjBAMB0GA1UdDgQWBBTGztUOp3AGt/phlT5gvrr5XUAJ2DASBgNVHRMBAf8ECDAGAQH/AgEAMAsGA1UdDwQEAwIBhjANBgkqhkiG9w0BAQsFAAOCAQEAkWWZgmsKhy5xRvqS6jzpEXMOja/TUPPD5IzVkhTOuNKLGJgLf9wPtbCEEvjQkxJQB6+l+M5JdTLgyEK0BcPZInD6m31vg7jhiLqZCn44PW6K5gkmDRVe2st4eezLJPI/9pe9WKvSkg1v4rHsiwsYYaz7HNfHFjZEmjpUmdGsyyh/IRyUf/25GHMcsq8NRrsmVxMhqz8mUCrwcEpqeZkYTUtUbVwTMzVNICp2tBpCALz8uopRRIdwZWrXi5W7BDrrJ+SVzdnw0+IgS36YkChj3Kr7HuslWGn3Diw6uxPuK4idQfDMX2zBumBpYJCOhQQPHLdl3BKwuocDhc5F3pIrOg==</X509Certificate>
+</X509Data>
+</KeyInfo>
+</KeyDescriptor>
+<fed:SecurityTokenServiceEndpoint>
+<EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+<Address>https://cfs001.dudleycadet.us/cfs/WsFed/testusers/9bc41285-8afc-40a0-ad12-22e0d0d09197</Address>
+</EndpointReference>
+</fed:SecurityTokenServiceEndpoint>
+<fed:PassiveRequestorEndpoint>
+<EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+<Address>https://cfs001.dudleycadet.us/cfs/WsFed/testusers/9bc41285-8afc-40a0-ad12-22e0d0d09197</Address>
+</EndpointReference>
+</fed:PassiveRequestorEndpoint>
+</RoleDescriptor>
+</EntityDescriptor>
