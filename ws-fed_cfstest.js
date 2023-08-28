@@ -20,10 +20,12 @@ function readIdpMetadata() {
 const idpMetadataXml = readIdpMetadata();
 
 const idpMetadata = {
-  entity_id: 'https://cfs001.dudleycadet.us',
+  //entity_id: 'https://cfs001.dudleycadet.us',
+  entity_id: 'https://cfs-server',
   sso_service: {
     binding: 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
-    url: 'https://cfs001.dudleycadet.us/cfs/WsFed/testusers/9bc41285-8afc-40a0-ad12-22e0d0d09197'
+    //url: 'https://cfs001.dudleycadet.us/cfs/WsFed/testusers/9bc41285-8afc-40a0-ad12-22e0d0d09197'
+    url: 'https://cfs-server/cfs/WsFed/krpocthree/e01d5c4b-2f12-4414-88f6-d0449323d8b1'
   }
 };
 
@@ -75,6 +77,7 @@ app.get('/logout', (req, res) => {
 });
 
 const users = {
-  'testuser001@dudleycadet.us': { name: 'TestUser001', password: 'My2Kids000' },
-  'testuser002@dudleycadet.us': { name: 'TestUser002', password: 'My2Kids000' }
+  'testuser001@krpoc.com': { name: 'TestUser001', password: 'P@ssword123' },
+  'testuser001@krpoc.com': { name: 'TestUser001', password: 'P@ssword123' },
+  'testuser002@krpoc.com': { name: 'TestUser002', password: 'P@ssword123' }
 };
