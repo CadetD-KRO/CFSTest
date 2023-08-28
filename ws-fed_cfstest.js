@@ -13,7 +13,7 @@ app.listen(3000, () => {
 });
 
 function readIdpMetadata() {
-  const metadataXml = fs.readFileSync('ws-fed_cfstest.xml', 'utf-8');
+  const metadataXml = fs.readFileSync('ws-fed_cfs-server.xml', 'utf-8');
   return metadataXml;
 }
 

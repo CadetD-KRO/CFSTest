@@ -1,0 +1,41 @@
+<EntityDescriptor ID="_47ee6294-a3b6-4d39-ac17-6ab80865aa3d" entityID="https://cfs-server" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<ds:Reference URI="#_47ee6294-a3b6-4d39-ac17-6ab80865aa3d">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<ds:DigestValue>Aqak2wRJ3LkIwg5xqXQok/u0lMvAE7bMjXIh6npt4NQ=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>M+Ock9n/rvXAIRMj/MVvRL9on3S4QQAtBnybWXVAVp9I7ndEZJ4NrmdVSyqqX7bYHKFqU1S3YtHvlGeY4LUGHnz808G878j1LhuHvwZP1EDFAPSa66R4P8qHmEg+Yd5WxK/UkQNpfNWxQZGoDAJr66re3nsuismcWbxorOIx045HJ3Pjf/mcjPM3yfkvZuMXKWW1e4bWZk/L7QgZmDePSdlCa1QAT9+OYXFbc0vMC6l98L+cyK78/N8XvRg1e4kElGp4doUhPuBhPDb9evgyXzVqHm8500S2D/ZSu0GQMw4vRuAjBdXY0z6+QBuFMUhAVFr1OjIzyuU9gImshN0+sw==</ds:SignatureValue>
+		<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<X509Data>
+				<X509Certificate>MIIDMjCCAhqgAwIBAgIQLqODfWHQUwLwvkCL5W2FRjANBgkqhkiG9w0BAQsFADAzMRMwEQYDVQQDDAprcnBvY3RocmVlMRwwGgYDVQQDDBNSYWRpYW50IExvZ2ljLCBJbmMuMB4XDTIzMDgyMjE3MDcwMloXDTI4MDgyMzE3MDcwMlowMzETMBEGA1UEAwwKa3Jwb2N0aHJlZTEcMBoGA1UEAwwTUmFkaWFudCBMb2dpYywgSW5jLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIXx/Clrq4uKHclemTBhDGMtvKym8zTBNH0a/ZH3SvmzSnm0Bz80p+f5pMRYgYT3qcyJTQRmiQS4ftY6wahUp5HMV0yAuDnAaT1Z+ekjBZuh0iCeZeT/W4u2VMl32Hr+3SBVwGUym0rlCTwxfw2dC1uXcbQkmCLO8VcccvEeTKXVq6Wx+2xW/dgwf6WSIv9q27VtN1ApgdoWxcZb98Q8MAIzVFklVtFxUrv6LcH6vPKl2QjQcEqeVq71SzrtSYm8RktAaUKFjMjqRtD0bhA+nPfeeIEk8UdzVYFI8ijHVc9ck+uVXlh0WwSxIamNz/dOdK45m4dQUJC9Ujf7IVpvvE0CAwEAAaNCMEAwHQYDVR0OBBYEFNkYZ8IxW9aQn7qw23mnAdhKHRLcMBIGA1UdEwEB/wQIMAYBAf8CAQAwCwYDVR0PBAQDAgGGMA0GCSqGSIb3DQEBCwUAA4IBAQAMW+mSWiRReV5YBJhEwEheP9DZTViExJQHStt/pl2pCENAM8RgpuxxhTrTu+z5R6y0psSZN1Dz65UHzcEDQcywyS4/iuiJf1p1+Ef0WDJkW0rdQ0T/DrrYEHr0HyEjvoydjgqRgWsRf3CVt7/ZretZ9HlK2vFhdyZd9bpUtR6l8C/kGZd8uAVIZ7SO/kLMrRwHrxjdprj+ir2LRwjf9rFq8ToE88QFdY7g1gFS9Sgf7VD6gdZy77IUIa1nXQB9fOw+k7Lm7EcoRZgimAxlomdgJW8aXNwThjX0MR0UL0Rrn//57oSG0D54ZVk01EaUO+gVEkyp0KSnlbd+Dx6AcOnd</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</ds:Signature>
+	<RoleDescriptor xsi:type="fed:SecurityTokenServiceType" protocolSupportEnumeration="http://docs.oasis-open.org/wsfed/federation/200706" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fed="http://docs.oasis-open.org/wsfed/federation/200706">
+		<KeyDescriptor use="signing">
+			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<X509Data>
+					<X509Certificate>MIIDMjCCAhqgAwIBAgIQLqODfWHQUwLwvkCL5W2FRjANBgkqhkiG9w0BAQsFADAzMRMwEQYDVQQDDAprcnBvY3RocmVlMRwwGgYDVQQDDBNSYWRpYW50IExvZ2ljLCBJbmMuMB4XDTIzMDgyMjE3MDcwMloXDTI4MDgyMzE3MDcwMlowMzETMBEGA1UEAwwKa3Jwb2N0aHJlZTEcMBoGA1UEAwwTUmFkaWFudCBMb2dpYywgSW5jLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIXx/Clrq4uKHclemTBhDGMtvKym8zTBNH0a/ZH3SvmzSnm0Bz80p+f5pMRYgYT3qcyJTQRmiQS4ftY6wahUp5HMV0yAuDnAaT1Z+ekjBZuh0iCeZeT/W4u2VMl32Hr+3SBVwGUym0rlCTwxfw2dC1uXcbQkmCLO8VcccvEeTKXVq6Wx+2xW/dgwf6WSIv9q27VtN1ApgdoWxcZb98Q8MAIzVFklVtFxUrv6LcH6vPKl2QjQcEqeVq71SzrtSYm8RktAaUKFjMjqRtD0bhA+nPfeeIEk8UdzVYFI8ijHVc9ck+uVXlh0WwSxIamNz/dOdK45m4dQUJC9Ujf7IVpvvE0CAwEAAaNCMEAwHQYDVR0OBBYEFNkYZ8IxW9aQn7qw23mnAdhKHRLcMBIGA1UdEwEB/wQIMAYBAf8CAQAwCwYDVR0PBAQDAgGGMA0GCSqGSIb3DQEBCwUAA4IBAQAMW+mSWiRReV5YBJhEwEheP9DZTViExJQHStt/pl2pCENAM8RgpuxxhTrTu+z5R6y0psSZN1Dz65UHzcEDQcywyS4/iuiJf1p1+Ef0WDJkW0rdQ0T/DrrYEHr0HyEjvoydjgqRgWsRf3CVt7/ZretZ9HlK2vFhdyZd9bpUtR6l8C/kGZd8uAVIZ7SO/kLMrRwHrxjdprj+ir2LRwjf9rFq8ToE88QFdY7g1gFS9Sgf7VD6gdZy77IUIa1nXQB9fOw+k7Lm7EcoRZgimAxlomdgJW8aXNwThjX0MR0UL0Rrn//57oSG0D54ZVk01EaUO+gVEkyp0KSnlbd+Dx6AcOnd</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</KeyDescriptor>
+		<fed:SecurityTokenServiceEndpoint>
+			<EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+				<Address>https://cfs-server/cfs/WsFed/krpocthree/e01d5c4b-2f12-4414-88f6-d0449323d8b1</Address>
+			</EndpointReference>
+		</fed:SecurityTokenServiceEndpoint>
+		<fed:PassiveRequestorEndpoint>
+			<EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+				<Address>https://cfs-server/cfs/WsFed/krpocthree/e01d5c4b-2f12-4414-88f6-d0449323d8b1</Address>
+			</EndpointReference>
+		</fed:PassiveRequestorEndpoint>
+	</RoleDescriptor>
+</EntityDescriptor>
